@@ -20,5 +20,5 @@ class Solution(object):
 
 		answer = (max_freq-1)*n + max_freq
 		answer += (times-1)
-        answer = max(answer, len(tasks))
-        return answer
+        	answer = max(answer, len(tasks))
+        	return answer
